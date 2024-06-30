@@ -1,0 +1,178 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+header{
+	
+	background-color:#778899;
+	width:100%;
+	position:fixed;
+	z-index:999;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding:20px 200px;
+}
+.logo{
+	text-decoration:none;
+	color:orange;
+	text-transform:capitalize;
+	font-weight:700;
+	font-size:20px;
+	text-shadow:2px 2px  red;
+}
+.nav a{
+	text-decoration:none;
+	font-size:18px;
+	font-weight:500;
+	padding-left:30px;
+	color:#000080;
+	transition:0.6s ease;
+
+	
+}
+.nav a:hover{
+	color:#C0C0C0;
+}
+section{
+	padding:100px 200px;
+}
+.main{
+	width:100%;
+	min-height:100vh;
+	display:flex;
+	align-items:center;
+	background:url(images/bg.jpg) no-repeat;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+	opacity: 0.8;
+		
+
+
+}
+.main h2{
+	color:#fff;
+	font-size:1.4em;
+	font-weight:900;
+}
+.main h2 span{
+	color:#F5DEB3;
+	display:inline-block;
+	margin-top:10px;
+	font-size:3em;
+	font-weight:600;
+}
+.main h3{
+	color:#fff;
+	font-size:2em;
+	font-weight:700;
+	letter-spacing:1px;
+	margin-top:10px;
+	margin-bottom:30px;
+
+}
+.main-btn{
+	color:#fff;
+	font-size:1.1em;
+	font-weight:600;
+		text-decoration:none;
+		background-color:gray;
+display:inline-block;
+padding:15px 35px;
+letter-spacing:1px;
+border-radius:15px;
+margin-bottom:40px;
+transition:0.6s ease;
+}
+.main-btn:hover{
+	background-color:blue;
+	transform:scale(1.1);
+}
+.social-icons a{
+	color:white;
+	font-size:27px;
+	padding-right:30px;
+
+}
+.title{
+	display:flex;
+	justify-content:center;
+	color:blue;
+	font-size:36px;
+	font-weight:800;
+	margin-bottom:30px;
+	font-family:arial;
+}
+.content{
+	display:flex;
+	justify-content:center;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+.card-a{
+	text-decoration:none;
+}
+.card{
+	background-color:white;
+	width:340px;
+	box-shadow:0 5px 25px rgba(1,1,1,15%);
+	border-radius:10px;
+	padding:25px;
+	margin:15px;
+	transition:0.6s ease;
+
+}
+.card:hover{
+	
+	transform:scale(1.1);
+
+
+}
+.icon{
+	color:blue;
+	font-size:8em;
+	text-align:center;
+	
+}
+.info{
+	text-align:center;
+}
+.info h3{
+	color:blue;
+	font-size:1.2em;
+	font-weight:700;
+	margin:10px;
+}
+.contact{
+	background-color:gray;
+}
+.contact .icon{
+	font-size:4em;
+}
+.contact .info h3{
+color:black;
+}
+.contact .info p{
+color-size:1.5em;
+}
+.footer{
+	background-color:black;
+	color:white;
+	padding:2em;
+	display:flex;
+	justify-content:space-between;
+}
+.footer-title{
+	font-size:1.3em;
+	font-weight:600;
+	word-spacing:3px;
+}
+.footer-title span{
+	color:blue;
+}
+.footer .social-icons a{
+	font-size:1.3em;
+	padding:0 20px 0 0;
+}
